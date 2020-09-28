@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+:root{
+   --navbar-height-navbar:30px;
+}
+   /* Navbar */
+   #navbar ul li a{
+    display: block;
+    padding: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    display: block;
+    border: 3px yellowgreen;
+    margin-left: 1px;
+    size: 0.5rem;
+    height: 10px;
+    margin-top: -2px;
+}
+#navbar ul li{
+    padding-left: 72px;
+}
+#infobar img{
+    width:25%
+    
+}
+#infodeal{
+    display: block;
+    border: 3px solid lightpink;
+    padding: 20px 5px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    height:240px;
+    background-color:#a8c2ed ;
+    width: 25%;
+}
+#infodeal img{
+    width: 120px;
+    height: 120px;
+}
+#infodeal p{
+    font-size: 13px  ;
+}
+
+#client-section h1{
+    align-items: center;
+   
+}

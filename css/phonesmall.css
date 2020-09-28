@@ -1,0 +1,13 @@
+
+}
+#home::before{
+    content: "";
+    margin-top: -162px;
+}
+#infodeal{
+    font-size: 1px;
+}
+#client-section img{
+    height: 100px;
+    width: 100px;
+}

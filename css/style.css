@@ -1,0 +1,209 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+:root{
+   --navbar-height-navbar:59px;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    flex-direction: row;
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#navbar ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: center;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: skyblue;
+    position: absolute;
+    height: 16%;
+    width: 100%;
+    z-index: -1;
+    opacity: .67;
+    max-width:100%;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    display: block;
+    border: 3px yellowgreen;
+    margin-left: 93px;
+    size: 0.5rem;
+}
+#navbar ul li a:hover{
+    font-size: 15px;
+    color:red;
+    background-color: yellowgreen;
+}
+/* Login and Signup */
+#navbar .button li a{
+
+    width: 100px;
+    margin: 5px;
+    margin-left: 10px;
+    padding-left: 12px;
+   
+}
+/* Logo styling */
+#mainlogo{
+    display: flex;
+    flex-direction: row;
+
+}
+/* Home Section */
+
+#home{
+    padding-top: 0px 200px;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+#home::before{
+    content: "";
+    background:url(/bg2.webp) no-repeat center center/cover;    
+    position: absolute;
+    margin-top: -104px;
+    margin-right: 0px;   
+    height: 100%;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;  
+}
+.h-primary{
+    align-items: center;
+   
+}
+.h-primary::before{
+    bottom: red;
+
+   }
+/*OFFER Lining*/
+
+#offerline{
+    background-color: beige;
+    margin-top: 10px;
+}
+/* Infobar */
+#infobar{
+    display: flex;
+    background-color: #5084d9;
+}
+
+/* Infodeal */
+#infodeal{
+    display: block;
+    border: 3px solid lightpink;
+    padding: 20px 5px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    height:376px;
+    background-color:#a8c2ed ;
+    width: 25%;
+}
+
+/* Our Services */
+#services{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    text-align: center;;
+    background-color: lightskyblue;
+}
+#box1{
+    display: block;
+    border: 3px lightpink;
+   width: 33%;
+   border-radius: 15px;
+   padding:12px; 
+   margin: 10px;
+    
+}
+#box2{
+    display: block;
+    border: 2px lightpink;
+    width: 33%;
+    border-radius: 15px;
+    padding:12px;  
+    margin: 10px; 
+}
+#box8{
+    display: block;
+    border: 2px lightpink;
+    width: 33%;
+    border-radius: 15px;
+    padding:12px;
+    margin: 10px;  
+
+}
+
+
+/* Client Section */
+#client-section{
+    height: 260px;  
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+#clients img{
+    height:144px;
+    style="border-radius: 15px;
+    padding: 20px;
+}
+.client-item{
+    padding: 50px;
+    
+}
+.h-primary-center{
+    align-items: center;
+    margin: 0px 550px;
+}
+
+/* Query Section */
+#queries{
+  display: flex;
+  flex-direction: row;
+  padding: 12px  12px ;background-color: #5084d9;
+}
+.quer1{
+    display: block;
+    margin: 3px;
+    padding: 2px;
+    color: black;
+    font-size: 1.1rem;
+}
+.quer2{
+    display: block;
+    margin-left: 400px;
+    width: 25%;
+    padding: 2px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+
